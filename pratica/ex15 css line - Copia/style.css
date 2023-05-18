@@ -1,0 +1,7 @@
+@charset "UTF-8";
+body{background-color: rgb(212, 233, 20);
+    font-family: cursive; 
+    font-size: medium; }
+    h1{ color: rgb(12, 12, 3);
+    background-color: dimgrey;}
+    h2{color: red;}
