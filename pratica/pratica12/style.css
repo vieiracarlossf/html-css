@@ -41,17 +41,32 @@ a:hover{
     text-decoration: underline;
     color: red;
 }
-#normal{
+section.normal{
 background-color: white;
 }
-#imagem{
+section.normal > p{
+    padding: 20px;
+}
+section.imagem{
 background-color: rgb(59, 59, 59);
 color: white;
 }
-#imagem > p{
-background-color: rgba(73, 73, 73, 0.534);
+section.imagem > p{
+background-color: rgba(73, 73, 73, 0.644);
 display: inline-block;
 padding: 5px;
+
+
+}
+#img01{
+    background-image:url(imagens/background001.jpg);
+background-position:center right ;
+background-size: cover;
+}
+#img02{
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+
 }
 section{
     padding-top: 10vh;
