@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas Grandes</title>
     <style>
+
     table{
         font-family: Arial, Helvetica, sans-serif;
         border-collapse: collapse;
@@ -16,6 +17,13 @@
     }
     th,tfoot{
         background-color: gray;
+    
+    }
+    caption {
+        font-size: 1.3em;
+        background-color: rgba(180, 180, 180, 0.747);
+        padding: 5px;
+        font-weight: bold;
     }
     td.num{
         text-align: right;
@@ -23,12 +31,14 @@
     </style>
 </head>
 <body>
-    <h1>Lista de unidades federativas do Brasil</h1>
+    <h1>Uso de Tabelas Grandes</h1>
+    
      <table>
         <thead>
+            <caption>População das unidades federativas do Brasil</caption>
             <tr>
-                <th>Unidade federativa</th>
-                <th>População</th>
+                <th scope="col">Unidade federativa</th>
+                <th scope="col">População</th>
             </tr>
         </thead>
         <tbody>
@@ -144,9 +154,8 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Abitantes</th>
-                <td>
-                    <strong>213.317.639</strong></td>
+                <th scope="row">Total de Abitantes</th>
+                <td><strong >213.317.639</strong></td>
             </tr>
         </tfoot>
      </table>
