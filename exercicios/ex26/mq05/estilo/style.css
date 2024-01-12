@@ -19,10 +19,14 @@ header>ul{
 }
 span{
     background-color: rgb(20, 20, 20);
-    color: white;
-    width:100vw ;
-    text-align:center;
+    color:white;
+    width: 100vw;
+    text-align: center;
     cursor: pointer;
+}
+span:hover{
+    background-color: white;
+    color: black;
 }
 menu{
     display: none;
@@ -51,8 +55,11 @@ main{
     margin: auto;
     margin-top: 10px;
 }
+article{
+    padding-bottom: 20px;
+}
 article > p {
    text-align: justify;
-   padding-bottom: 20px;
+   margin-bottom: 20px;
    text-indent: 25px;
 }

@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Midía Queries</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-  <link rel="stylesheet" href="estilo/style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Midía Queries</title>
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+        
+        <link rel="stylesheet"  href="estilo/style.css">
+        
+        <link rel="stylesheet" href="style/midiaQ.css">
 </head>
 <body>
    <header>
-        <h1>Meu Site</h1>
-        <span class="material-symbols-outlined" onclick="clickMenu()">
-            menu
-        </span>
-        <menu id="itens">
+        <h1>Meu Site</h1> 
+            
+        <span id="burguer" class="material-symbols-outlined"onclick="clickMenu()" > menu
+            </span>
+            
+            <menu id="itens">
             <ul>
                 <li><a href="#">Opção1</a></li>
                 <li><a href="#">Opção2</a></li>
@@ -37,13 +43,15 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quod ex, voluptate velit repellat repudiandae, voluptates voluptas provident iure facilis inventore eos? Quasi tenetur dolorum suscipit, quaerat ut voluptates asperiores! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex, laborum! Iste nam minima quidem alias error aliquid porro ipsa mollitia, fugit assumenda vitae recusandae nisi similique atque sequi nostrum hic. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas ab officia aperiam labore magni necessitatibus optio dolore soluta. Sint odio quia deleniti nemo sit aliquid eaque ut mollitia ab temporibus?
                 </p>
             </article>
+            
    </main>
      <script>
         function clickMenu() {
-            if (itens.style.display =='block') {  itens.style.display ='none'
-        } else {
-            itens.style.display = 'block'
-          }
+           if(itens.style.display=='block') {
+                itens.style.display='none'    
+           } else {
+                itens.style.display='block'         
+           } 
         }
      </script>
 </body>
