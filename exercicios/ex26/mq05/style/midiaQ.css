@@ -8,6 +8,13 @@
            display: block;
            color: white;
     }
+    menu>ul>li{
+        display: inline-block;
+
+    }
+    main{
+        width: 768px;
+    }
 }
     
 

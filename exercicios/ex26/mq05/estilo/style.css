@@ -10,12 +10,10 @@ body{
 }
 header{
     background-color: rgb(160, 159, 159);
+    width: 100vw;
 }
 header>h1{
     text-align: center;
-}
-header>ul{
-
 }
 span{
     background-color: rgb(20, 20, 20);
@@ -23,6 +21,7 @@ span{
     width: 100vw;
     text-align: center;
     cursor: pointer;
+    padding: 5px;
 }
 span:hover{
     background-color: white;
@@ -47,13 +46,12 @@ menu > ul > li > a:hover{
     background-color: rgb(199, 199, 199);
 }
 main{
-    width: 90vh;
+
     padding: 10px;
     border-radius: 10px;
     border: 2px solid white;
     background-color: white;
-    margin: auto;
-    margin-top: 10px;
+    margin:10px;
 }
 article{
     padding-bottom: 20px;

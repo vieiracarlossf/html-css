@@ -12,7 +12,7 @@
         
         <link rel="stylesheet" href="style/midiaQ.css">
 </head>
-<body>
+<body onresize="mudouTamanho()">
    <header>
         <h1>Meu Site</h1> 
             
@@ -46,6 +46,15 @@
             
    </main>
      <script>
+        function mudouTamanho(){
+            if (window.innerWidth>= 768){
+                itens.style.display='block'
+            } else {
+                itens.style.display='none'
+            }
+        
+        }
+            
         function clickMenu() {
            if(itens.style.display=='block') {
                 itens.style.display='none'    
